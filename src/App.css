@@ -18,16 +18,15 @@
 .main {
   height: 55vh;
   background: #2a6bb1;
-  box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 80px -20px rgba(0,0,0,0.5);
   width: 60%;
   margin: 0 auto;
 }
 
 .info {
   height: 55vh;
-  background: url("./assets/polygon.jpg") center center no-repeat;
   background-blend-mode: multiply;
-  background-color: #484747;
+  background: #484747 url("./assets/polygon.jpg") no-repeat center center;
   border: 2px solid #1f1f1f;
   border-right: 2px solid #131e29;
   background-size: cover;
@@ -88,7 +87,7 @@ button:hover {
 }
 
 button:active {
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid ;
   border-color: transparent;
   position: relative;
   top: 2px;
@@ -104,7 +103,7 @@ button:active {
   font-weight: bold;
 }
 
-.infoWeath {
+.infoWeather {
   width: 60%;
   font-size: 20px;
   color: #fff;

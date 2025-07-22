@@ -1,9 +1,9 @@
 interface WeatherItems {
-    country?: string;
-    temp?: string;
-    pressure?: string;
-    sunset?: string;
-    city?: string;
+    country?: string,
+    temp?: string,
+    pressure?: string,
+    sunset?: string,
+    city?: string
 }
 interface WeatherProps {
     weather: WeatherItems,
